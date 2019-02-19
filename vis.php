@@ -43,7 +43,7 @@ curl_setopt ( $ idsystem404 , CURLOPT_HTTPPROXYTUNNEL , $ proxy );
 curl_setopt ( $ idsystem404 , CURLOPT_FOLLOWLOCATION , true );
 curl_setopt ( $ idsystem404 , CURLOPT_RETURNTRANSFER , true );
 curl_setopt ( $ idsystem404 , CURLOPT_SSL_VERIFYPEER , false );
-curl_setopt ( $ idsystem404 , CURLOPT_TIMEOUT , 10 );
+curl_setopt ( $ idsystem404 , CURLOPT_TIMEOUT , 30 );
 curl_setopt ( $ idsystem404 , CURLOPT_ENCODING , " gzip " );
 $ exec  =  curl_exec ( $ idsystem404 );
 if ( ! curl_errno ( $ idsystem404 )) {
